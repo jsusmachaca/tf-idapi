@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <title>PELIS BRO</title>
+</head>
+<body>
+  <h1 id="title">Pelis el Bro</h1>
+  <main>
+    <section id="search-bar">
+      <form id="search-form" action="/search">
+        <input id="bar" type="text" name="name" placeholder="search">
+      </form>
+    </section>
+    
+    <section id="album">
+        <% data.forEach((d) => { %>
+          <div class="card">
+            <img class="banner" src="<%= d.image %>" alt="Banner">
+            <h2 class="name"> <%= d.title %> </h2>
+
+            <div class="card-desc">
+              <p><%= d.description %></p>  
+            </div>
+          </div>
+        <% }); %>
+    </section>
+  </main>
+  <script>
+    document.getElementById('search-form').addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        const searchText = document.getElementById('bar').value;
+        const url = `/search/${encodeURIComponent(searchText)}`;
+
+        window.location.href = url;
+    });
+</script>
+</body>
+</html>

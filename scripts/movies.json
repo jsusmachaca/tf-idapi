@@ -1,0 +1,210 @@
+[
+    {
+      "title": "El hombre de acero",
+      "year": "2019",
+      "classification": "tv-13",
+      "genre": "acción",
+      "director": "*****",
+      "protagonists": [
+        "henry cavill",
+        "amy adams"
+      ],
+      "description": "Clark Kent recorre el mundo sin revelar sus poderes,pero cuando alguien amenaza la tierra, el entra en acción",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTk5ODk1NDkxMF5BMl5BanBnXkFtZTcwNTA5OTY0OQ@@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "title": "18 regalos",
+      "year": "2020",
+      "classification": "TV-MA",
+      "genre": "Drama",
+      "director": "Francesco Amato",
+      "protagonists": [
+        "Vittoria Puccini",
+        "Benedetta Porcaroli",
+        "Edoardo Leo"
+      ],
+      "description": "Una madre embarazada que padece cáncer terminal, deja 18 regalos para que su hija reciba en cada cumpleaños",
+      "image": "https://pics.filmaffinity.com/18_regalos-782967126-large.jpg"
+    },
+    {
+      "title": "El hoyo",
+      "year": "2019",
+      "classification": "TV-MA",
+      "genre": "Suspenso",
+      "director": "***",
+      "protagonists": [
+        "Iván Massague",
+        "Antonia San Juan",
+        "Zorion"
+      ],
+      "description": "Una prisión vertical con una celda por nivel. Dos personas por celda. Una sola plataforma de alimentos y dos minutos por día para alimentar de arriba a abajo. Una pesadilla interminable atrapada en The Hole.",
+      "image": "https://es.web.img3.acsta.net/pictures/19/09/17/17/00/0735463.jpg"
+    },
+    {
+      "title": "Pasante de moda",
+      "year": "2015",
+      "classification": "PG-13",
+      "genre": "Drama",
+      "director": "Nancy Meyers",
+      "protagonists": [
+        "Anna hathaway",
+        "Rene Russo"
+      ],
+      "description": "El viudo de setenta años, Ben Whittaker, descubrió que la jubilación no es todo loque parece ser. Aprovechando la oportunidad de volver al juego, se convierte en pasante  señor en un sitio de moda en línea, fundado y dirigido por Jules Ostin.",
+      "image": "https://m.media-amazon.com/images/S/pv-target-images/5b976b667fcec396808a916fe4fb47d41894cdf96542135db6ddd57599335ee1.jpg"
+    },
+    {
+      "title": "John Wick",
+      "year": "2017",
+      "classification": "R",
+      "genre": "Acción",
+      "director": "Chad Stahelski",
+      "protagonists": [
+        "keanu Reeves",
+        "Common",
+        "Laurence"
+      ],
+      "description": "Un ex sicario sale de su retiro para localizar a los mafiosos que mataron a su perro y le quitaron todo.",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTU2NjA1ODgzMF5BMl5BanBnXkFtZTgwMTM2MTI4MjE@._V1_.jpg"
+    },
+    {
+      "title": "Guasón",
+      "year": "2019",
+      "classification": "B15",
+      "genre": "Crime, Drama, Thriller",
+      "director": "Todd Phillips",
+      "protagonists": [
+        "Joaquin Phoenix",
+        "Robert De Niro",
+        "Zazie Beetz"
+      ],
+      "description": "En Gotham City, el comediante con problemas mentales Arthur Fleck es ignorado y maltratado por la sociedad. Luego se embarca en una espiral descendente de revolución y crímenes sangrientos. Este camino lo pone cara a cara con su alter ego: el Joker.",
+      "image": "https://static.wikia.nocookie.net/batman/images/0/02/Facepaint.jpg/revision/latest?cb=20200207161842&path-prefix=es"
+    },
+    {
+      "title": "El descenso",
+      "year": "2005",
+      "classification": "R",
+      "genre": "Aventura , Horror , Suspenso",
+      "director": "Neil Marshall",
+      "protagonists": [
+        "Shauna Macdonald",
+        " Natalie Mendoza",
+        "Alex Reid"
+      ],
+      "description": "Una mujer se va de vacaciones con sus amigos después de que su esposo y su hija encuentran un trágico accidente. Un año después, ella va de excursión con sus amigos y quedan atrapados en la cueva.Con una falta de suministro,luchan por sobrevivir y se encuentran con extrañas criaturas sedientas de sangre.",
+      "image": "https://mx.web.img3.acsta.net/pictures/22/04/05/21/20/1395408.jpg"
+    },
+    {
+      "title": "The king: Eterno monarca",
+      "year": "2020",
+      "classification": "Tv-14",
+      "genre": "Ficción,Romance",
+      "director": "*****",
+      "protagonists": [
+        "Lee min-ho",
+        "amy adams"
+      ],
+      "description": "Mientras Lee Gon llora la trágica muerte su padre Lee Min halla una inesperada escapatoria al toparse con una puerta que conduce a un universo paralelo",
+      "image": "https://m.media-amazon.com/images/I/61ZAjvmdA1L._SL1101_.jpg"
+    },
+    {
+      "title": "El mundo oculto de sabrina",
+      "year": "2020",
+      "classification": "Tv-14",
+      "genre": "Fantasía,Romance",
+      "director": "*****",
+      "protagonists": [
+        "Kiernan Shipka",
+        "Ross Lynch",
+        "Miranda Otto"
+      ],
+      "description": "Mientras  Greendale se prepara para un eclipse de Hallovween, Sabrina debe tomar uan decisión difícil, y Harvey hace una declaración inesperada",
+      "image": "https://static.wikia.nocookie.net/doblaje/images/c/c3/ElMundoOcultodeSabrina-Poster4.jpg/revision/latest?cb=20211209011009&path-prefix=es"
+    },
+    {
+      "title": "Élite",
+      "year": "2020",
+      "classification": "Tv-MA",
+      "genre": "Drama,Misterio,Romance",
+      "director": "Carlos Montero",
+      "protagonists": [
+        "Danna Paola",
+        "Ester Exposito",
+        "Jorge Lopez",
+        "Aron Piper"
+      ],
+      "description": "Tras el colapso de una escuela pública, el constructor intenta subsanar el daño de a su imagen con una beca a tres estudiantes para que asistan a una institucion privada",
+      "image": "https://static.wikia.nocookie.net/doblaje/images/c/c3/ElMundoOcultodeSabrina-Poster4.jpg/revision/latest?cb=20211209011009&path-prefix=es"
+    },
+    {
+      "title": "Sex education",
+      "year": "2020",
+      "classification": "Tv-MA",
+      "genre": "Drama",
+      "director": "Laurie Nunn",
+      "protagonists": [
+        "Asa Butterfield",
+        "Gilian Anderson",
+        "Mimi Keene"
+      ],
+      "description": "Por tener una mandre terapeuta, Otis siempre tiene una respuesta cuando de sexo se trara.Así que su rebelde amiga Meave le propone abrir una clínica de terapia sexual",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCBfjAhuo_1jsGgyUOONKn3HiTZMPy3ijZ6A&s"
+    },
+    {
+      "title": "Insatiable",
+      "year": "2020",
+      "classification": "Tv-MA",
+      "genre": "Drama, Comedia",
+      "director": "...",
+      "protagonists": [
+        "Debby Ryan",
+        "Alyssa Milano"
+      ],
+      "description": "Una adolescente que fue víctima de acoso escolar se anota en un concurso de belleza para vengarse, con la ayuda de un desdichado entrenador que no sabe en la que se metió",
+      "image": "https://m.media-amazon.com/images/M/MV5BODUzODY1NzEtYjNiNy00NzEwLThhYzEtZGUxZjQ4MDRiNjY2XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_QL75_UX190_CR0,0,190,281_.jpg"
+    },
+    {
+      "title": "Dark",
+      "year": "2017",
+      "classification": "Tv-MA",
+      "genre": "Crimen,Drama , Misterio",
+      "director": "Baran bo Odar",
+      "protagonists": [
+        "Jördis Triebel",
+        "Louis Hofmann",
+        "Karoline Eichhorn "
+      ],
+      "description": "Una saga familiar con un toque sobrenatural, ambientada en una ciudad alemana, donde la desaparición de dos niños pequeños expone las relaciones entre cuatro familias.",
+      "image": "https://m.media-amazon.com/images/M/MV5BOTk2NzUyOTctZDdlMS00MDJlLTgzNTEtNzQzYjFhNjA0YjBjXkEyXkFqcGdeQXVyMjg1NDcxNDE@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "title": "Locke & Key",
+      "year": "2017",
+      "classification": "Tv-MA",
+      "genre": "Drama , Fantasía , Horror ",
+      "director": "Meredith Averill",
+      "protagonists": [
+        " Darby Stanchfield",
+        "Connor Jessup",
+        "Emilia Jones "
+      ],
+      "description": "Después de que su padre es asesinado en circunstancias misteriosas, los tres hermanos Locke ysu madre se mudan a su hogar ancestral, Keyhouse, que descubren que está lleno de llaves mágicas que pueden estar relacionadas con la muerte de su padre.",
+      "image": "https://m.media-amazon.com/images/M/MV5BNDg3YzU0YzItNTAwNC00MjNkLThhZmItNDI3NWY3ZDdhN2Q2XkEyXkFqcGc@._V1_.jpg"
+    },
+    {
+      "title": "Titans ",
+      "year": "2019",
+      "classification": "Tv-MA",
+      "genre": "Acción , Aventura , Crimen  ",
+      "director": " Greg Berlanti",
+      "protagonists": [
+        " Anna Diop",
+        " Teagan Croft",
+        "Brenton Thwaites "
+      ],
+      "description": "Un equipo de jóvenes superhéroes combate el mal y otros peligros.",
+      "image": "https://m.media-amazon.com/images/M/MV5BNjY4MTE3MWYtYzU3YS00Y2UxLTk2NDMtMjJlODk2MzBmOTdiXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg"
+    }
+  ]
+  
