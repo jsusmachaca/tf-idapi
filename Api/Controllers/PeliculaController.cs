@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
-using MovieApi.Models;
-using MovieApi.Services;
+using Api.Models;
+using Api.Services;
 
 [ApiController]
 [Route("api/[controller]")]

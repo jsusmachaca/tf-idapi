@@ -1,7 +1,7 @@
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 
-namespace MovieApi.Models
+namespace Api.Models
 {
     public class Pelicula
     {

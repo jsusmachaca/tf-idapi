@@ -1,10 +1,10 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 
-WORKDIR /MovieApi
+WORKDIR /Api
 
 COPY . .
 
-RUN dotnet restore "/MovieApi/MovieApi.csproj"
+RUN dotnet restore "/Api/Api.csproj"
 
 RUN dotnet publish -c release -o /out
 

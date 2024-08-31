@@ -1,8 +1,8 @@
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;
-using MovieApi.Models;
+using Api.Models;
 
-namespace MovieApi.Services
+namespace Api.Services
 {
     public class PeliculaService
     {

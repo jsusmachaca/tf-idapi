@@ -33,7 +33,7 @@ services:
       - db
 
   api:
-    build: ./MovieApi
+    build: ./Api
     env_file:
       - .env
     environment:

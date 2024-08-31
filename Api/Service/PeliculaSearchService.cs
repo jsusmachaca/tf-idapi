@@ -1,7 +1,7 @@
 using Microsoft.ML;
 using Microsoft.ML.Data;
-using MovieApi.Models;
-using MovieApi.Services;
+using Api.Models;
+using Api.Services;
 using System.Collections.Generic;
 using System.Linq;
 

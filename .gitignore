@@ -2,5 +2,5 @@
 jwt.key*
 node_modules
 package-lock.json
-MovieApi/bin
-MovieApi/obj
+Api/bin
+Api/obj

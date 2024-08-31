@@ -1,4 +1,4 @@
-namespace MovieApi.Models
+namespace Api.Models
 {
     public class MongoDBSettings
     {
