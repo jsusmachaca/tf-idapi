@@ -22,6 +22,7 @@ func GetAll(w http.ResponseWriter, r *http.Request) {
 
 	if util.JWTValidator(token) != nil {
 		w.Write([]byte(`{"error": "token is not valid"}`))
+		return
 	}
 
 	w.Write(repository.GetAll())
