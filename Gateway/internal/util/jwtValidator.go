@@ -12,6 +12,7 @@ func JWTValidator(tokenstring string) error {
 	if err != nil {
 		return err
 	}
+
 	pubKey, err := jwt.ParseRSAPublicKeyFromPEM(key)
 	if err != nil {
 		return err
