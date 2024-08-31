@@ -1,210 +1,587 @@
 [
-    {
-      "title": "El hombre de acero",
-      "year": "2019",
-      "classification": "tv-13",
-      "genre": "acción",
-      "director": "*****",
-      "protagonists": [
-        "henry cavill",
-        "amy adams"
-      ],
-      "description": "Clark Kent recorre el mundo sin revelar sus poderes,pero cuando alguien amenaza la tierra, el entra en acción",
-      "image": "https://m.media-amazon.com/images/M/MV5BMTk5ODk1NDkxMF5BMl5BanBnXkFtZTcwNTA5OTY0OQ@@._V1_FMjpg_UX1000_.jpg"
-    },
-    {
-      "title": "18 regalos",
-      "year": "2020",
-      "classification": "TV-MA",
-      "genre": "Drama",
-      "director": "Francesco Amato",
-      "protagonists": [
-        "Vittoria Puccini",
-        "Benedetta Porcaroli",
-        "Edoardo Leo"
-      ],
-      "description": "Una madre embarazada que padece cáncer terminal, deja 18 regalos para que su hija reciba en cada cumpleaños",
-      "image": "https://pics.filmaffinity.com/18_regalos-782967126-large.jpg"
-    },
-    {
-      "title": "El hoyo",
-      "year": "2019",
-      "classification": "TV-MA",
-      "genre": "Suspenso",
-      "director": "***",
-      "protagonists": [
-        "Iván Massague",
-        "Antonia San Juan",
-        "Zorion"
-      ],
-      "description": "Una prisión vertical con una celda por nivel. Dos personas por celda. Una sola plataforma de alimentos y dos minutos por día para alimentar de arriba a abajo. Una pesadilla interminable atrapada en The Hole.",
-      "image": "https://es.web.img3.acsta.net/pictures/19/09/17/17/00/0735463.jpg"
-    },
-    {
-      "title": "Pasante de moda",
-      "year": "2015",
-      "classification": "PG-13",
-      "genre": "Drama",
-      "director": "Nancy Meyers",
-      "protagonists": [
-        "Anna hathaway",
-        "Rene Russo"
-      ],
-      "description": "El viudo de setenta años, Ben Whittaker, descubrió que la jubilación no es todo loque parece ser. Aprovechando la oportunidad de volver al juego, se convierte en pasante  señor en un sitio de moda en línea, fundado y dirigido por Jules Ostin.",
-      "image": "https://m.media-amazon.com/images/S/pv-target-images/5b976b667fcec396808a916fe4fb47d41894cdf96542135db6ddd57599335ee1.jpg"
-    },
-    {
-      "title": "John Wick",
-      "year": "2017",
-      "classification": "R",
-      "genre": "Acción",
-      "director": "Chad Stahelski",
-      "protagonists": [
-        "keanu Reeves",
-        "Common",
-        "Laurence"
-      ],
-      "description": "Un ex sicario sale de su retiro para localizar a los mafiosos que mataron a su perro y le quitaron todo.",
-      "image": "https://m.media-amazon.com/images/M/MV5BMTU2NjA1ODgzMF5BMl5BanBnXkFtZTgwMTM2MTI4MjE@._V1_.jpg"
-    },
-    {
-      "title": "Guasón",
-      "year": "2019",
-      "classification": "B15",
-      "genre": "Crime, Drama, Thriller",
-      "director": "Todd Phillips",
-      "protagonists": [
-        "Joaquin Phoenix",
-        "Robert De Niro",
-        "Zazie Beetz"
-      ],
-      "description": "En Gotham City, el comediante con problemas mentales Arthur Fleck es ignorado y maltratado por la sociedad. Luego se embarca en una espiral descendente de revolución y crímenes sangrientos. Este camino lo pone cara a cara con su alter ego: el Joker.",
-      "image": "https://static.wikia.nocookie.net/batman/images/0/02/Facepaint.jpg/revision/latest?cb=20200207161842&path-prefix=es"
-    },
-    {
-      "title": "El descenso",
-      "year": "2005",
-      "classification": "R",
-      "genre": "Aventura , Horror , Suspenso",
-      "director": "Neil Marshall",
-      "protagonists": [
-        "Shauna Macdonald",
-        " Natalie Mendoza",
-        "Alex Reid"
-      ],
-      "description": "Una mujer se va de vacaciones con sus amigos después de que su esposo y su hija encuentran un trágico accidente. Un año después, ella va de excursión con sus amigos y quedan atrapados en la cueva.Con una falta de suministro,luchan por sobrevivir y se encuentran con extrañas criaturas sedientas de sangre.",
-      "image": "https://mx.web.img3.acsta.net/pictures/22/04/05/21/20/1395408.jpg"
-    },
-    {
-      "title": "The king: Eterno monarca",
-      "year": "2020",
-      "classification": "Tv-14",
-      "genre": "Ficción,Romance",
-      "director": "*****",
-      "protagonists": [
-        "Lee min-ho",
-        "amy adams"
-      ],
-      "description": "Mientras Lee Gon llora la trágica muerte su padre Lee Min halla una inesperada escapatoria al toparse con una puerta que conduce a un universo paralelo",
-      "image": "https://m.media-amazon.com/images/I/61ZAjvmdA1L._SL1101_.jpg"
-    },
-    {
-      "title": "El mundo oculto de sabrina",
-      "year": "2020",
-      "classification": "Tv-14",
-      "genre": "Fantasía,Romance",
-      "director": "*****",
-      "protagonists": [
-        "Kiernan Shipka",
-        "Ross Lynch",
-        "Miranda Otto"
-      ],
-      "description": "Mientras  Greendale se prepara para un eclipse de Hallovween, Sabrina debe tomar uan decisión difícil, y Harvey hace una declaración inesperada",
-      "image": "https://static.wikia.nocookie.net/doblaje/images/c/c3/ElMundoOcultodeSabrina-Poster4.jpg/revision/latest?cb=20211209011009&path-prefix=es"
-    },
-    {
-      "title": "Élite",
-      "year": "2020",
-      "classification": "Tv-MA",
-      "genre": "Drama,Misterio,Romance",
-      "director": "Carlos Montero",
-      "protagonists": [
-        "Danna Paola",
-        "Ester Exposito",
-        "Jorge Lopez",
-        "Aron Piper"
-      ],
-      "description": "Tras el colapso de una escuela pública, el constructor intenta subsanar el daño de a su imagen con una beca a tres estudiantes para que asistan a una institucion privada",
-      "image": "https://static.wikia.nocookie.net/doblaje/images/c/c3/ElMundoOcultodeSabrina-Poster4.jpg/revision/latest?cb=20211209011009&path-prefix=es"
-    },
-    {
-      "title": "Sex education",
-      "year": "2020",
-      "classification": "Tv-MA",
-      "genre": "Drama",
-      "director": "Laurie Nunn",
-      "protagonists": [
-        "Asa Butterfield",
-        "Gilian Anderson",
-        "Mimi Keene"
-      ],
-      "description": "Por tener una mandre terapeuta, Otis siempre tiene una respuesta cuando de sexo se trara.Así que su rebelde amiga Meave le propone abrir una clínica de terapia sexual",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCBfjAhuo_1jsGgyUOONKn3HiTZMPy3ijZ6A&s"
-    },
-    {
-      "title": "Insatiable",
-      "year": "2020",
-      "classification": "Tv-MA",
-      "genre": "Drama, Comedia",
-      "director": "...",
-      "protagonists": [
-        "Debby Ryan",
-        "Alyssa Milano"
-      ],
-      "description": "Una adolescente que fue víctima de acoso escolar se anota en un concurso de belleza para vengarse, con la ayuda de un desdichado entrenador que no sabe en la que se metió",
-      "image": "https://m.media-amazon.com/images/M/MV5BODUzODY1NzEtYjNiNy00NzEwLThhYzEtZGUxZjQ4MDRiNjY2XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_QL75_UX190_CR0,0,190,281_.jpg"
-    },
-    {
-      "title": "Dark",
-      "year": "2017",
-      "classification": "Tv-MA",
-      "genre": "Crimen,Drama , Misterio",
-      "director": "Baran bo Odar",
-      "protagonists": [
-        "Jördis Triebel",
-        "Louis Hofmann",
-        "Karoline Eichhorn "
-      ],
-      "description": "Una saga familiar con un toque sobrenatural, ambientada en una ciudad alemana, donde la desaparición de dos niños pequeños expone las relaciones entre cuatro familias.",
-      "image": "https://m.media-amazon.com/images/M/MV5BOTk2NzUyOTctZDdlMS00MDJlLTgzNTEtNzQzYjFhNjA0YjBjXkEyXkFqcGdeQXVyMjg1NDcxNDE@._V1_FMjpg_UX1000_.jpg"
-    },
-    {
-      "title": "Locke & Key",
-      "year": "2017",
-      "classification": "Tv-MA",
-      "genre": "Drama , Fantasía , Horror ",
-      "director": "Meredith Averill",
-      "protagonists": [
-        " Darby Stanchfield",
-        "Connor Jessup",
-        "Emilia Jones "
-      ],
-      "description": "Después de que su padre es asesinado en circunstancias misteriosas, los tres hermanos Locke ysu madre se mudan a su hogar ancestral, Keyhouse, que descubren que está lleno de llaves mágicas que pueden estar relacionadas con la muerte de su padre.",
-      "image": "https://m.media-amazon.com/images/M/MV5BNDg3YzU0YzItNTAwNC00MjNkLThhZmItNDI3NWY3ZDdhN2Q2XkEyXkFqcGc@._V1_.jpg"
-    },
-    {
-      "title": "Titans ",
-      "year": "2019",
-      "classification": "Tv-MA",
-      "genre": "Acción , Aventura , Crimen  ",
-      "director": " Greg Berlanti",
-      "protagonists": [
-        " Anna Diop",
-        " Teagan Croft",
-        "Brenton Thwaites "
-      ],
-      "description": "Un equipo de jóvenes superhéroes combate el mal y otros peligros.",
-      "image": "https://m.media-amazon.com/images/M/MV5BNjY4MTE3MWYtYzU3YS00Y2UxLTk2NDMtMjJlODk2MzBmOTdiXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg"
-    }
-  ]
-  
+  {
+    "title": "El hombre de acero",
+    "year": 2019,
+    "classification": "tv-13",
+    "genre": "acción",
+    "director": "*****",
+    "protagonists": [
+      "henry cavill",
+      "amy adams"
+    ],
+    "description": "Clark Kent recorre el mundo sin revelar sus poderes,pero cuando alguien amenaza la tierra, el entra en acción",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTk5ODk1NDkxMF5BMl5BanBnXkFtZTcwNTA5OTY0OQ@@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "18 regalos",
+    "year": 2020,
+    "classification": "TV-MA",
+    "genre": "Drama",
+    "director": "Francesco Amato",
+    "protagonists": [
+      "Vittoria Puccini",
+      "Benedetta Porcaroli",
+      "Edoardo Leo"
+    ],
+    "description": "Una madre embarazada que padece cáncer terminal, deja 18 regalos para que su hija reciba en cada cumpleaños",
+    "image": "https://pics.filmaffinity.com/18_regalos-782967126-large.jpg"
+  },
+  {
+    "title": "El hoyo",
+    "year": 2019,
+    "classification": "TV-MA",
+    "genre": "Suspenso",
+    "director": "***",
+    "protagonists": [
+      "Iván Massague",
+      "Antonia San Juan",
+      "Zorion"
+    ],
+    "description": "Una prisión vertical con una celda por nivel. Dos personas por celda. Una sola plataforma de alimentos y dos minutos por día para alimentar de arriba a abajo. Una pesadilla interminable atrapada en The Hole.",
+    "image": "https://es.web.img3.acsta.net/pictures/19/09/17/17/00/0735463.jpg"
+  },
+  {
+    "title": "Pasante de moda",
+    "year": 2015,
+    "classification": "PG-13",
+    "genre": "Drama",
+    "director": "Nancy Meyers",
+    "protagonists": [
+      "Anna hathaway",
+      "Rene Russo"
+    ],
+    "description": "El viudo de setenta años, Ben Whittaker, descubrió que la jubilación no es todo loque parece ser. Aprovechando la oportunidad de volver al juego, se convierte en pasante  señor en un sitio de moda en línea, fundado y dirigido por Jules Ostin.",
+    "image": "https://m.media-amazon.com/images/S/pv-target-images/5b976b667fcec396808a916fe4fb47d41894cdf96542135db6ddd57599335ee1.jpg"
+  },
+  {
+    "title": "John Wick",
+    "year": 2017,
+    "classification": "R",
+    "genre": "Acción",
+    "director": "Chad Stahelski",
+    "protagonists": [
+      "keanu Reeves",
+      "Common",
+      "Laurence"
+    ],
+    "description": "Un ex sicario sale de su retiro para localizar a los mafiosos que mataron a su perro y le quitaron todo.",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTU2NjA1ODgzMF5BMl5BanBnXkFtZTgwMTM2MTI4MjE@._V1_.jpg"
+  },
+  {
+    "title": "Guasón",
+    "year": 2019,
+    "classification": "B15",
+    "genre": "Crime, Drama, Thriller",
+    "director": "Todd Phillips",
+    "protagonists": [
+      "Joaquin Phoenix",
+      "Robert De Niro",
+      "Zazie Beetz"
+    ],
+    "description": "En Gotham City, el comediante con problemas mentales Arthur Fleck es ignorado y maltratado por la sociedad. Luego se embarca en una espiral descendente de revolución y crímenes sangrientos. Este camino lo pone cara a cara con su alter ego: el Joker.",
+    "image": "https://m.media-amazon.com/images/M/MV5BMGQ1ZGZmNTAtM2MyYi00NmZhLTkwYmYtNTNlZDRhMzU2ZTgwXkEyXkFqcGdeQW1yb3NzZXI@._V1_.jpg"
+  },
+  {
+    "title": "El descenso",
+    "year": 2005,
+    "classification": "R",
+    "genre": "Aventura , Horror , Suspenso",
+    "director": "Neil Marshall",
+    "protagonists": [
+      "Shauna Macdonald",
+      " Natalie Mendoza",
+      "Alex Reid"
+    ],
+    "description": "Una mujer se va de vacaciones con sus amigos después de que su esposo y su hija encuentran un trágico accidente. Un año después, ella va de excursión con sus amigos y quedan atrapados en la cueva.Con una falta de suministro,luchan por sobrevivir y se encuentran con extrañas criaturas sedientas de sangre.",
+    "image": "https://mx.web.img3.acsta.net/pictures/22/04/05/21/20/1395408.jpg"
+  },
+  {
+    "title": "The king: Eterno monarca",
+    "year": 2020,
+    "classification": "Tv-14",
+    "genre": "Ficción,Romance",
+    "director": "*****",
+    "protagonists": [
+      "Lee min-ho",
+      "amy adams"
+    ],
+    "description": "Mientras Lee Gon llora la trágica muerte su padre Lee Min halla una inesperada escapatoria al toparse con una puerta que conduce a un universo paralelo",
+    "image": "https://m.media-amazon.com/images/I/61ZAjvmdA1L._SL1101_.jpg"
+  },
+  {
+    "title": "El mundo oculto de sabrina",
+    "year": 2020,
+    "classification": "Tv-14",
+    "genre": "Fantasía,Romance",
+    "director": "*****",
+    "protagonists": [
+      "Kiernan Shipka",
+      "Ross Lynch",
+      "Miranda Otto"
+    ],
+    "description": "Mientras  Greendale se prepara para un eclipse de Hallovween, Sabrina debe tomar uan decisión difícil, y Harvey hace una declaración inesperada",
+    "image": "https://mx.web.img3.acsta.net/pictures/18/09/22/02/56/2323749.jpg"
+  },
+  {
+    "title": "Élite",
+    "year": 2020,
+    "classification": "Tv-MA",
+    "genre": "Drama,Misterio,Romance",
+    "director": "Carlos Montero",
+    "protagonists": [
+      "Danna Paola",
+      "Ester Exposito",
+      "Jorge Lopez",
+      "Aron Piper"
+    ],
+    "description": "Tras el colapso de una escuela pública, el constructor intenta subsanar el daño de a su imagen con una beca a tres estudiantes para que asistan a una institucion privada",
+    "image": "https://es.web.img2.acsta.net/pictures/21/05/24/17/52/1035233.jpg"
+  },
+  {
+    "title": "Sex education",
+    "year": 2020,
+    "classification": "Tv-MA",
+    "genre": "Drama",
+    "director": "Laurie Nunn",
+    "protagonists": [
+      "Asa Butterfield",
+      "Gilian Anderson",
+      "Mimi Keene"
+    ],
+    "description": "Por tener una mandre terapeuta, Otis siempre tiene una respuesta cuando de sexo se trara.Así que su rebelde amiga Meave le propone abrir una clínica de terapia sexual",
+    "image": "https://es.web.img2.acsta.net/pictures/19/01/03/09/01/2915581.jpg"
+  },
+  {
+    "title": "Insatiable",
+    "year": 2020,
+    "classification": "Tv-MA",
+    "genre": "Drama, Comedia",
+    "director": "...",
+    "protagonists": [
+      "Debby Ryan",
+      "Alyssa Milano"
+    ],
+    "description": "Una adolescente que fue víctima de acoso escolar se anota en un concurso de belleza para vengarse, con la ayuda de un desdichado entrenador que no sabe en la que se metió",
+    "image": "https://m.media-amazon.com/images/M/MV5BODUzODY1NzEtYjNiNy00NzEwLThhYzEtZGUxZjQ4MDRiNjY2XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_QL75_UX190_CR0,0,190,281_.jpg"
+  },
+  {
+    "title": "Dark",
+    "year": 2017,
+    "classification": "Tv-MA",
+    "genre": "Crimen,Drama , Misterio",
+    "director": "Baran bo Odar",
+    "protagonists": [
+      "Jördis Triebel",
+      "Louis Hofmann",
+      "Karoline Eichhorn "
+    ],
+    "description": "Una saga familiar con un toque sobrenatural, ambientada en una ciudad alemana, donde la desaparición de dos niños pequeños expone las relaciones entre cuatro familias.",
+    "image": "https://m.media-amazon.com/images/M/MV5BOTk2NzUyOTctZDdlMS00MDJlLTgzNTEtNzQzYjFhNjA0YjBjXkEyXkFqcGdeQXVyMjg1NDcxNDE@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "Locke & Key",
+    "year": 2017,
+    "classification": "Tv-MA",
+    "genre": "Drama , Fantasía , Horror ",
+    "director": "Meredith Averill",
+    "protagonists": [
+      " Darby Stanchfield",
+      "Connor Jessup",
+      "Emilia Jones "
+    ],
+    "description": "Después de que su padre es asesinado en circunstancias misteriosas, los tres hermanos Locke ysu madre se mudan a su hogar ancestral, Keyhouse, que descubren que está lleno de llaves mágicas que pueden estar relacionadas con la muerte de su padre.",
+    "image": "https://m.media-amazon.com/images/M/MV5BNDg3YzU0YzItNTAwNC00MjNkLThhZmItNDI3NWY3ZDdhN2Q2XkEyXkFqcGc@._V1_.jpg"
+  },
+  {
+    "title": "Titans ",
+    "year": 2019,
+    "classification": "Tv-MA",
+    "genre": "Acción , Aventura , Crimen  ",
+    "director": " Greg Berlanti",
+    "protagonists": [
+      " Anna Diop",
+      " Teagan Croft",
+      "Brenton Thwaites "
+    ],
+    "description": "Un equipo de jóvenes superhéroes combate el mal y otros peligros.",
+    "image": "https://m.media-amazon.com/images/M/MV5BNjY4MTE3MWYtYzU3YS00Y2UxLTk2NDMtMjJlODk2MzBmOTdiXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg"
+  },
+  {
+    "title": "Mad Max: Fury Road",
+    "year": 2015,
+    "classification": "R",
+    "genre": "Acción, Aventura, Ciencia Ficción",
+    "director": "George Miller",
+    "protagonists": [
+      "Tom Hardy",
+      "Charlize Theron"
+    ],
+    "description": "En un futuro post-apocalíptico, Max se une a Furiosa para huir de un tirano en un camión blindado.",
+    "image": "https://m.media-amazon.com/images/M/MV5BN2EwM2I5OWMtMGQyMi00Zjg1LWJkNTctZTdjYTA4OGUwZjMyXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "Inception",
+    "year": 2010,
+    "classification": "PG-13",
+    "genre": "Acción, Aventura, Ciencia Ficción",
+    "director": "Christopher Nolan",
+    "protagonists": [
+      "Leonardo DiCaprio",
+      "Joseph Gordon-Levitt"
+    ],
+    "description": "Un ladrón que roba secretos corporativos a través de la tecnología de los sueños recibe la tarea de implantar una idea en la mente de un CEO.",
+    "image": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_.jpg"
+  },
+  {
+    "title": "The Dark Knight",
+    "year": 2008,
+    "classification": "PG-13",
+    "genre": "Acción, Crimen, Drama",
+    "director": "Christopher Nolan",
+    "protagonists": [
+      "Christian Bale",
+      "Heath Ledger"
+    ],
+    "description": "Batman enfrenta a su mayor enemigo, el Joker, mientras lucha por mantener a Gotham segura.",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_.jpg"
+  },
+  {
+    "title": "Parasite",
+    "year": 2019,
+    "classification": "R",
+    "genre": "Comedia, Drama, Suspenso",
+    "director": "Bong Joon Ho",
+    "protagonists": [
+      "Kang-ho Song",
+      "Sun-kyun Lee"
+    ],
+    "description": "Una familia pobre se infiltra en la vida de una rica familia coreana, lo que lleva a consecuencias inesperadas.",
+    "image": "https://m.media-amazon.com/images/M/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg"
+  },
+  {
+    "title": "The Matrix",
+    "year": 1999,
+    "classification": "R",
+    "genre": "Acción, Ciencia Ficción",
+    "director": "Lana Wachowski, Lilly Wachowski",
+    "protagonists": [
+      "Keanu Reeves",
+      "Laurence Fishburne"
+    ],
+    "description": "Un hacker descubre la verdad detrás de su realidad y se une a la rebelión contra las máquinas.",
+    "image": "https://es.web.img3.acsta.net/medias/nmedia/18/72/16/76/20065616.jpg"
+  },
+  {
+    "title": "Pulp Fiction",
+    "year": 1994,
+    "classification": "R",
+    "genre": "Crimen, Drama",
+    "director": "Quentin Tarantino",
+    "protagonists": [
+      "John Travolta",
+      "Uma Thurman",
+      "Samuel L. Jackson"
+    ],
+    "description": "Las vidas de dos mafiosos, un boxeador y una pareja de criminales se entrelazan en cuatro historias de violencia y redención.",
+    "image": "https://pics.filmaffinity.com/pulp_fiction-210382116-mmed.jpg"
+  },
+  {
+    "title": "Fight Club",
+    "year": 1999,
+    "classification": "R",
+    "genre": "Drama",
+    "director": "David Fincher",
+    "protagonists": [
+      "Brad Pitt",
+      "Edward Norton"
+    ],
+    "description": "Un oficinista insomne forma un club de lucha clandestino que evoluciona hacia algo mucho más peligroso.",
+    "image": "https://m.media-amazon.com/images/M/MV5BOTgyOGQ1NDItNGU3Ny00MjU3LTg2YWEtNmEyYjBiMjI1Y2M5XkEyXkFqcGc@._V1_.jpg"
+  },
+  {
+    "title": "Interstellar",
+    "year": 2014,
+    "classification": "PG-13",
+    "genre": "Ciencia Ficción, Aventura, Drama",
+    "director": "Christopher Nolan",
+    "protagonists": [
+      "Matthew McConaughey",
+      "Anne Hathaway"
+    ],
+    "description": "Un grupo de astronautas viaja a través de un agujero de gusano en busca de un nuevo hogar para la humanidad.",
+    "image": "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg"
+  },
+  {
+    "title": "The Shawshank Redemption",
+    "year": 1994,
+    "classification": "R",
+    "genre": "Drama",
+    "director": "Frank Darabont",
+    "protagonists": [
+      "Tim Robbins",
+      "Morgan Freeman"
+    ],
+    "description": "La historia de un banquero condenado por un crimen que no cometió, quien encuentra redención a través de la amistad y la esperanza en prisión.",
+    "image": "https://m.media-amazon.com/images/M/MV5BNDE3ODcxYzMtY2YzZC00NmNlLWJiNDMtZDViZWM2MzIxZDYwXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg"
+  },
+  {
+    "title": "The Godfather",
+    "year": 1972,
+    "classification": "R",
+    "genre": "Crimen, Drama",
+    "director": "Francis Ford Coppola",
+    "protagonists": [
+      "Marlon Brando",
+      "Al Pacino"
+    ],
+    "description": "La saga de la familia mafiosa Corleone y su lucha por mantener el control del imperio familiar.",
+    "image": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "Forrest Gump",
+    "year": 1994,
+    "classification": "PG-13",
+    "genre": "Drama, Romance",
+    "director": "Robert Zemeckis",
+    "protagonists": [
+      "Tom Hanks",
+      "Robin Wright"
+    ],
+    "description": "La vida de un hombre con un coeficiente intelectual bajo que, sin darse cuenta, se convierte en testigo y participante de eventos históricos importantes.",
+    "image": "https://pics.filmaffinity.com/Forrest_Gump-212765827-large.jpg"
+  },
+  {
+    "title": "Gladiator",
+    "year": 2000,
+    "classification": "R",
+    "genre": "Acción, Aventura, Drama",
+    "director": "Ridley Scott",
+    "protagonists": [
+      "Russell Crowe",
+      "Joaquin Phoenix"
+    ],
+    "description": "Un general romano es traicionado y reducido a la esclavitud, pero busca venganza en la arena del Coliseo.",
+    "image": "https://pics.filmaffinity.com/Gladiator-331143379-large.jpg"
+  },
+  {
+    "title": "The Silence of the Lambs",
+    "year": 1991,
+    "classification": "R",
+    "genre": "Crimen, Drama, Thriller",
+    "director": "Jonathan Demme",
+    "protagonists": [
+      "Jodie Foster",
+      "Anthony Hopkins"
+    ],
+    "description": "Una joven agente del FBI busca la ayuda de un asesino en serie encarcelado para capturar a otro asesino en serie en libertad.",
+    "image": "https://m.media-amazon.com/images/M/MV5BNjNhZTk0ZmEtNjJhMi00YzFlLWE1MmEtYzM1M2ZmMGMwMTU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg"
+  },
+  {
+    "title": "Jurassic Park",
+    "year": 1993,
+    "classification": "PG-13",
+    "genre": "Acción, Aventura, Ciencia Ficción",
+    "director": "Steven Spielberg",
+    "protagonists": [
+      "Sam Neill",
+      "Laura Dern"
+    ],
+    "description": "Un parque temático que alberga dinosaurios clonados se vuelve caótico cuando los dinosaurios escapan de su confinamiento.",
+    "image": "https://m.media-amazon.com/images/M/MV5BMjM2MDgxMDg0Nl5BMl5BanBnXkFtZTgwNTM2OTM5NDE@._V1_.jpg"
+  },
+  {
+    "title": "The Lion King",
+    "year": 1994,
+    "classification": "G",
+    "genre": "Animación, Aventura, Drama",
+    "director": "Roger Allers, Rob Minkoff",
+    "protagonists": [
+      "Matthew Broderick",
+      "James Earl Jones"
+    ],
+    "description": "El joven león Simba debe reclamar su lugar como rey de la Sabana después de la muerte de su padre.",
+    "image": "https://m.media-amazon.com/images/M/MV5BMjIwMjE1Nzc4NV5BMl5BanBnXkFtZTgwNDg4OTA1NzM@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "The Departed",
+    "year": 2006,
+    "classification": "R",
+    "genre": "Crimen, Drama, Thriller",
+    "director": "Martin Scorsese",
+    "protagonists": [
+      "Leonardo DiCaprio",
+      "Matt Damon"
+    ],
+    "description": "Un policía encubierto y un criminal infiltrado intentan descubrir la identidad del otro mientras ambos trabajan para sus respectivos jefes.",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTI1MTY2OTIxNV5BMl5BanBnXkFtZTYwNjQ4NjY3._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "Whiplash",
+    "year": 2014,
+    "classification": "R",
+    "genre": "Drama, Música",
+    "director": "Damien Chazelle",
+    "protagonists": [
+      "Miles Teller",
+      "J.K. Simmons"
+    ],
+    "description": "Un joven batería busca la perfección bajo la tutela de un despiadado instructor en una escuela de música.",
+    "image": "https://es.web.img3.acsta.net/r_1280_720/pictures/14/09/26/17/53/345974.jpg"
+  },
+  {
+    "title": "Her",
+    "year": 2013,
+    "classification": "R",
+    "genre": "Drama, Ciencia Ficción, Romance",
+    "director": "Spike Jonze",
+    "protagonists": [
+      "Joaquin Phoenix",
+      "Scarlett Johansson"
+    ],
+    "description": "Un hombre solitario desarrolla una relación romántica con un sistema operativo avanzado de inteligencia artificial.",
+    "image": "https://pics.filmaffinity.com/Her-716403893-large.jpg"
+  },
+  {
+    "title": "The Big Lebowski",
+    "year": 1998,
+    "classification": "R",
+    "genre": "Comedia, Crimen",
+    "director": "Joel Coen, Ethan Coen",
+    "protagonists": [
+      "Jeff Bridges",
+      "John Goodman"
+    ],
+    "description": "El 'Dude', un fanático del bowling, se ve envuelto en un complot de secuestro y lavado de dinero por error.",
+    "image": "https://m.media-amazon.com/images/M/MV5BNDQwMTAzOTkxNV5BMl5BanBnXkFtZTgwMjc0MTAwMjE@._V1_.jpg"
+  },
+  {
+    "title": "Mad Max 2: The Road Warrior",
+    "year": 1981,
+    "classification": "R",
+    "genre": "Acción, Ciencia Ficción",
+    "director": "George Miller",
+    "protagonists": [
+      "Mel Gibson",
+      "Bruce Spence"
+    ],
+    "description": "En un mundo post-apocalíptico, Max ayuda a una comunidad a defenderse de una banda de saqueadores en busca de gasolina.",
+    "image": "https://m.media-amazon.com/images/M/MV5BYTAyNzBiZWUtMGY4YS00YzkzLWJhNGUtNTU5OThlZjZhZTYyXkEyXkFqcGc@._V1_.jpg"
+  },
+  {
+    "title": "The Revenant",
+    "year": 2015,
+    "classification": "R",
+    "genre": "Aventura, Drama, Thriller",
+    "director": "Alejandro G. Iñárritu",
+    "protagonists": [
+      "Leonardo DiCaprio",
+      "Tom Hardy"
+    ],
+    "description": "Un trampero es dejado por muerto en la naturaleza salvaje después de ser atacado por un oso y lucha por sobrevivir y vengar a su hijo.",
+    "image": "https://m.media-amazon.com/images/M/MV5BYTgwNmQzZDctMjNmOS00OTExLTkwM2UtNzJmOTJhODFjOTdlXkEyXkFqcGc@._V1_.jpg"
+  },
+  {
+    "title": "Django Unchained",
+    "year": 2012,
+    "classification": "R",
+    "genre": "Drama, Western",
+    "director": "Quentin Tarantino",
+    "protagonists": [
+      "Jamie Foxx",
+      "Christoph Waltz"
+    ],
+    "description": "Un esclavo liberado se convierte en cazarrecompensas y busca rescatar a su esposa de un cruel terrateniente.",
+    "image": "https://m.media-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_.jpg"
+  },
+  {
+    "title": "Memento",
+    "year": 2000,
+    "classification": "R",
+    "genre": "Drama, Misterio, Thriller",
+    "director": "Christopher Nolan",
+    "protagonists": [
+      "Guy Pearce",
+      "Carrie-Anne Moss"
+    ],
+    "description": "Un hombre con pérdida de memoria a corto plazo intenta encontrar al asesino de su esposa mientras lucha con su propia incapacidad para formar nuevos recuerdos.",
+    "image": "https://pics.filmaffinity.com/Memento-230609861-mmed.jpg"
+  },
+  {
+    "title": "A Beautiful Mind",
+    "year": 2001,
+    "classification": "PG-13",
+    "genre": "Biografía, Drama",
+    "director": "Ron Howard",
+    "protagonists": [
+      "Russell Crowe",
+      "Jennifer Connelly"
+    ],
+    "description": "La historia real del matemático John Nash, quien lucha con la esquizofrenia mientras hace contribuciones revolucionarias en la teoría de juegos.",
+    "image": "https://m.media-amazon.com/images/M/MV5BMzcwYWFkYzktZjAzNC00OGY1LWI4YTgtNzc5MzVjMDVmNjY0XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg"
+  },
+  {
+    "title": "The Usual Suspects",
+    "year": 1995,
+    "classification": "R",
+    "genre": "Crimen, Drama, Misterio",
+    "director": "Bryan Singer",
+    "protagonists": [
+      "Kevin Spacey",
+      "Gabriel Byrne"
+    ],
+    "description": "Cinco delincuentes son reunidos para un trabajo, solo para descubrir que están involucrados en una conspiración mucho más grande.",
+    "image": "https://m.media-amazon.com/images/M/MV5BYTViNjMyNmUtNDFkNC00ZDRlLThmMDUtZDU2YWE4NGI2ZjVmXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg"
+  },
+  {
+    "title": "The Grand Budapest Hotel",
+    "year": 2014,
+    "classification": "R",
+    "genre": "Comedia, Drama",
+    "director": "Wes Anderson",
+    "protagonists": [
+      "Ralph Fiennes",
+      "F. Murray Abraham"
+    ],
+    "description": "Las aventuras de un conserje de hotel y su protegido en la Europa de entreguerras, que se enredan en un robo de arte y un misterio de asesinato.",
+    "image": "https://m.media-amazon.com/images/M/MV5BMzM5NjUxOTEyMl5BMl5BanBnXkFtZTgwNjEyMDM0MDE@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "Spirited Away",
+    "year": 2001,
+    "classification": "PG",
+    "genre": "Animación, Aventura, Fantasía",
+    "director": "Hayao Miyazaki",
+    "protagonists": [
+      "Daveigh Chase",
+      "Suzanne Pleshette"
+    ],
+    "description": "Una niña se encuentra en un mundo mágico y debe encontrar una manera de salvar a sus padres y regresar a casa.",
+    "image": "https://m.media-amazon.com/images/M/MV5BMjlmZmI5MDctNDE2YS00YWE0LWE5ZWItZDBhYWQ0NTcxNWRhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg"
+  },
+  {
+    "title": "Oldboy",
+    "year": 2003,
+    "classification": "R",
+    "genre": "Acción, Drama, Misterio",
+    "director": "Park Chan-wook",
+    "protagonists": [
+      "Choi Min-sik",
+      "Yoo Ji-tae"
+    ],
+    "description": "Un hombre es secuestrado y mantenido en cautiverio durante 15 años sin explicación, luego se embarca en una misión de venganza al ser liberado.",
+    "image": "https://es.web.img3.acsta.net/medias/nmedia/18/89/75/11/20065192.jpg"
+  },
+  {
+    "title": "The Witch",
+    "year": 2015,
+    "classification": "R",
+    "genre": "Drama, Terror",
+    "director": "Robert Eggers",
+    "protagonists": [
+      "Anya Taylor-Joy",
+      "Ralph Ineson"
+    ],
+    "description": "Una familia puritana en el siglo XVII enfrenta lo desconocido y el miedo a la brujería cuando comienzan a ocurrir eventos aterradores cerca de su granja.",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTUyNzkwMzAxOF5BMl5BanBnXkFtZTgwMzc1OTk1NjE@._V1_.jpg"
+  }
+]

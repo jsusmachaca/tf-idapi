@@ -20,6 +20,18 @@ services:
     command: >
       mongoimport -u ${MONGO_USER} -p ${MONGO_PASSWORD} --authenticationDatabase admin --host db --db api --collection movies --type json --file /app/movies.json --jsonArray
 
+  gateway:
+    build: ./Gateway
+    env_file:
+      - .env
+    environment:
+      - PORT=${GO_PORT}
+      - API_URL=${API_URL}
+    ports:
+      - "8081:8081"
+    depends_on:
+      - db
+
   api:
     build: ./MovieApi
     env_file:
@@ -31,7 +43,7 @@ services:
       - "8080:8080"
     depends_on:
       - db
-  
+
   client:
     build: ./Client
     env_file:
@@ -43,18 +55,6 @@ services:
       - "${NODE_PORT}:${NODE_PORT}"
     depends_on:
       - db
-
-  # worker:
-  #   build: ./Worker
-  #   env_file:
-  #     - .env
-  #   environment:
-  #     - PORT=${GO_PORT}
-  #     - MONGO_URI=${MONGO_URI}
-  #   ports:
-  #     - "8081:8080"
-  #   depends_on:
-  #     - db
 
 volumes:
   mongo-data:

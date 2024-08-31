@@ -4,7 +4,7 @@ WORKDIR /MovieApi
 
 COPY . .
 
-RUN dotnet restore
+RUN dotnet restore "/MovieApi/MovieApi.csproj"
 
 RUN dotnet publish -c release -o /out
 

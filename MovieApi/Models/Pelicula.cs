@@ -13,7 +13,7 @@ namespace MovieApi.Models
         public string Title { get; set; } = string.Empty;
 
         [BsonElement("year")]
-        public string Year { get; set; } = string.Empty;
+        public int? Year { get; set; } = null;
 
         [BsonElement("classification")]
         public string Classification { get; set; } = string.Empty;

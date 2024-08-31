@@ -1,5 +1,5 @@
 .env
-jwt.key
+jwt.key*
 node_modules
 package-lock.json
 MovieApi/bin
