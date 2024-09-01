@@ -3,7 +3,7 @@ using MongoDB.Bson.Serialization.Attributes;
 
 namespace Api.Models
 {
-    public class Pelicula
+    public class Movie
     {
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]

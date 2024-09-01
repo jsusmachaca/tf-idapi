@@ -39,6 +39,8 @@ services:
     environment:
       - PORT=${CS_PORT}
       - MONGO_URI=${MONGO_URI}
+      - KAFKA_SERVER=${KAFKA_SERVER}:9092
+      - KAFKA_TOPIC=${KAFKA_TOPIC}
     ports:
       - "8080:8080"
     depends_on:
