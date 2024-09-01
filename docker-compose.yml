@@ -30,7 +30,7 @@ services:
     env_file:
       - .env
     environment:
-      - PORT=${GO_PORT}
+      - PORT=8081
       - API_URL=${API_URL}
     ports:
       - "8081:8081"
@@ -44,7 +44,6 @@ services:
     environment:
       - MONGO_URI=${MONGO_URI}
       - ALLOWED_IPS=${ALLOWED_IPS}
-      - ALLOWED_HOSTS=${ALLOWED_HOSTS}
       - KAFKA_SERVER=${KAFKA_SERVER}:9092
       - KAFKA_TOPIC=${KAFKA_TOPIC}
     ports:
@@ -58,10 +57,10 @@ services:
     env_file:
       - .env
     environment:
-      - PORT=${NODE_PORT}
-      - API_SERVER=api:${GO_PORT}
+      - PORT=3000
+      - API_SERVER=gateway:8081
     ports:
-      - "${NODE_PORT}:${NODE_PORT}"
+      - "3000:3000"
     depends_on:
       - db
 

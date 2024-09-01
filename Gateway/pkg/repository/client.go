@@ -19,7 +19,6 @@ func GetAll() ([]byte, int) {
 	defer res.Body.Close()
 
 	status := res.StatusCode
-
 	if status != 200 {
 		return nil, status
 	}
@@ -43,7 +42,6 @@ func Filter(text string) ([]byte, int) {
 	}
 
 	status := res.StatusCode
-
 	if status != 200 {
 		return nil, status
 	}
