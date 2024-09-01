@@ -20,6 +20,11 @@ services:
     command: >
       mongoimport -u ${MONGO_USER} -p ${MONGO_PASSWORD} --authenticationDatabase admin --host db --db api --collection movies --type json --file /app/movies.json --jsonArray
 
+  kafka:
+    image: apache/kafka
+    ports:
+      - "9092:9092"
+
   gateway:
     build: ./Gateway
     env_file:
@@ -37,14 +42,16 @@ services:
     env_file:
       - .env
     environment:
-      - PORT=${CS_PORT}
       - MONGO_URI=${MONGO_URI}
+      - ALLOWED_IPS=${ALLOWED_IPS}
+      - ALLOWED_HOSTS=${ALLOWED_HOSTS}
       - KAFKA_SERVER=${KAFKA_SERVER}:9092
       - KAFKA_TOPIC=${KAFKA_TOPIC}
     ports:
       - "8080:8080"
     depends_on:
       - db
+      - kafka
 
   client:
     build: ./Client
@@ -52,7 +59,7 @@ services:
       - .env
     environment:
       - PORT=${NODE_PORT}
-      - API_SERVER=api:${CS_PORT}
+      - API_SERVER=api:${GO_PORT}
     ports:
       - "${NODE_PORT}:${NODE_PORT}"
     depends_on:

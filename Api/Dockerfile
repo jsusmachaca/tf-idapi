@@ -15,4 +15,4 @@ WORKDIR /out
 
 COPY --from=build /out .
 
-ENTRYPOINT ["dotnet", "MovieApi.dll"]    
+ENTRYPOINT ["dotnet", "Api.dll"]

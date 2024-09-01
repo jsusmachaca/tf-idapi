@@ -25,7 +25,14 @@ func GetAll(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	w.Write(repository.GetAll())
+	data, status := repository.GetAll()
+	if data == nil {
+		w.WriteHeader(status)
+		w.Write([]byte(`{"error": "error to fetching data"}`))
+		return
+	}
+
+	w.Write(data)
 }
 
 func Filter(w http.ResponseWriter, r *http.Request) {
@@ -51,8 +58,14 @@ func Filter(w http.ResponseWriter, r *http.Request) {
 	params := strings.Split(url, "/")
 
 	if len(params) <= 5 && params[4] != "" {
-		w.Write(repository.Filter(params[4]))
-		return
+		data, status := repository.Filter(params[4])
+		if data == nil {
+			w.WriteHeader(status)
+			w.Write([]byte(`{"error": "error to fetching data"}`))
+			return
+		}
+
+		w.Write(data)
 	}
 
 	w.WriteHeader(http.StatusNotFound)

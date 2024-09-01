@@ -63,14 +63,16 @@ namespace Api.Services
                 magnitude1 += vector1[i] * vector1[i];
                 magnitude2 += vector2[i] * vector2[i];
             }
+            if (magnitude1 == 0 || magnitude2 == 0)
+                return 0;
 
             return dotProduct / (float)(System.Math.Sqrt(magnitude1) * System.Math.Sqrt(magnitude2));
         }
 
         private class TfidfData
         {
-            public string Text { get; set; }
-            public float[] Features { get; set; }
+            public string Text { get; set; } = string.Empty;
+            public float[] Features { get; set; } = new float[0];
         }
     }
 }

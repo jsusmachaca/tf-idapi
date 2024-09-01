@@ -41,7 +41,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+app.UseMiddleware<Api.Middleware.IpFilterMiddleware>();
+
+// app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();
 

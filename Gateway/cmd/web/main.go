@@ -20,7 +20,7 @@ func main() {
 	PORT := ":"
 	PORT += os.Getenv("PORT")
 	fmt.Println(PORT)
-	http.HandleFunc("/api/pelicula", handler.GetAll)
-	http.HandleFunc("/api/pelicula/search/", handler.Filter)
+	http.HandleFunc("/api/movie", handler.GetAll)
+	http.HandleFunc("/api/movie/search/", handler.Filter)
 	http.ListenAndServe(PORT, nil)
 }
