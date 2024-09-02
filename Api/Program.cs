@@ -41,7 +41,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseMiddleware<Api.Middleware.IpFilterMiddleware>();
+// app.UseMiddleware<Api.Middleware.IpFilterMiddleware>();
 
 // app.UseHttpsRedirection();
 app.UseAuthorization();
