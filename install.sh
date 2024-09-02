@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-git -v
+git --version
 
 if [[ $? -ne 0 ]]; then
     os=$(grep ^ID= /etc/os-release | cut -d= -f2 | tr -d '"')
@@ -13,6 +13,7 @@ if [[ $? -ne 0 ]]; then
         sudo apt install git
         *)
     esac
+fi
 
 git clone https://github.com/jsusmachaca/tf-idapi.git
 
