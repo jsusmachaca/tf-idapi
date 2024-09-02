@@ -30,7 +30,7 @@ export const searchTF = async (req: Request, res: Response) => {
         Authorization: `Bearer ${token}`
       }
     })
-
+    console.log(reqServer.data)
     return res.render('index', { data: reqServer.data })
   } catch (err) {
     console.log(err)

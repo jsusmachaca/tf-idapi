@@ -66,6 +66,7 @@ func Filter(w http.ResponseWriter, r *http.Request) {
 		}
 
 		w.Write(data)
+		return
 	}
 
 	w.WriteHeader(http.StatusNotFound)
