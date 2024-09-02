@@ -1,4 +1,4 @@
-process.loadEnvFile() // uncomment in development mode
+// process.loadEnvFile() // uncomment in development mode
 import express from 'express'
 import cors from 'cors'
 import path from 'node:path'
