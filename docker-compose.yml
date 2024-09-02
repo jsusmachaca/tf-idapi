@@ -1,6 +1,6 @@
 services:
   db:
-    image: mongo
+    image: mongo:4
     env_file: 
       - .env
     environment:
@@ -12,7 +12,7 @@ services:
       - mongo-data:/data/db
 
   mongo-seed:
-    image: mongo
+    image: mongo:4
     depends_on:
       - db
     volumes:
