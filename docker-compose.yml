@@ -20,6 +20,13 @@ services:
     command: >
       mongoimport -u ${MONGO_USER} -p ${MONGO_PASSWORD} --authenticationDatabase admin --host db --db api --collection movies --type json --file /app/movies.json --jsonArray
 
+  kafka:
+    image: mcjesus/kafka:1.0
+    environment:
+      - KAFKA_ADVERTISED_LISTENER=kafka
+    ports:
+      - "9092:9092"
+
   gateway:
     build: ./Gateway
     env_file:
@@ -45,6 +52,7 @@ services:
       - "8080:8080"
     depends_on:
       - db
+      - kafka
 
   client:
     build: ./Client
