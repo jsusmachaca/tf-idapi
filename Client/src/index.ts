@@ -6,6 +6,7 @@ import { getAll, searchTF } from './controller/clientController'
 
 const app = express()
 
+app.disable('x-powered-by')
 app.use(cors())
 app.use(express.static(path.join('src', 'public')))
 app.set('view engine', 'ejs')
