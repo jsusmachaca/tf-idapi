@@ -22,8 +22,10 @@ services:
 
   kafka:
     image: mcjesus/kafka:1.0
+    env_file:
+      - .env
     environment:
-      - KAFKA_ADVERTISED_LISTENER=kafka
+      - KAFKA_ADVERTISED_LISTENER=${KAFKA_SERVER}
     ports:
       - "9092:9092"
 
