@@ -26,6 +26,7 @@ namespace Api.Services
             var config = new ProducerConfig {
                 BootstrapServers = _bootstrapServers,
                 Acks = Acks.All,
+                SecurityProtocol = SecurityProtocol.Plaintext,
             };
             _producer = new ProducerBuilder<Null, string>(config).Build();
         }
